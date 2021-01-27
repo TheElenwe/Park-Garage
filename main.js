@@ -14,29 +14,31 @@ if (memberStatus === "yes") {
 
   if (hoursParked === 1) {
     let hoursParked = 2;
-    let total = hoursParked + memberStatus;
-    console.log(`Total amount is ${total}$`);
+    let sumParked1 = hoursParked + memberStatus;
+    console.log(`Total amount is ${sumParked1}$`);
 
   } else if (hoursParked === 2) {
-       hoursParked=1.5
-       total=2;
-    let totalAmount=total+hoursParked+memberStatus;
-    console.log(`Total amount is ${totalAmount}$`);
+      let hoursParked=1.5
+      let sumParked1=2;
+    let sumParked2=sumParked1+hoursParked+memberStatus;
+    console.log(`Total amount is ${sumParked2}$`);
     
   } else if (hoursParked === 3) {
-    hoursParked = 1;
-    totalSum = total + totalAmount;
-    sum = +3;
-    console.log(`${sum} Hours has parked`);
-    console.log(`Total amount is ${totalSum}$`);
+   let hoursParked = 1;
+   let sumParked1=2
+   let sumParked2=1.5;
+   let sumParked3=sumParked2+sumParked1+hoursParked+memberStatus
+  
+    console.log(`Total amount is ${sumParked3}$`);
    
   } else if (hoursParked === 4) {
-    hoursParked = 0.5;
-    totalSum = total + totalAmount + totalSasi;
-    sum = +4;
-    console.log(`${sum} Hours has parked`);
+  let hoursParked = 0.5;
+  let 
+
+    
     console.log(`Total amount is ${totalSum}$`);
   
   }
+
 
 
