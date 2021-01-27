@@ -4,9 +4,9 @@ let memberStatus = readlineSync.question("Input yes if you're a member, no if yo
 let hoursParked = Number(readlineSync.question("how hours parked \n"));
 
 if (memberStatus === "yes") {
-  memberStatus=parseFloat(memberStatus=3)
+  memberStatus=parseFloat(memberStatus=1.5)
 } else if (memberStatus === "no") {
-  hoursParked = 1.5;
+  memberStatus=parseFloat(memberStatus=3)
 }
 
 if (hoursParked === 2) {
@@ -16,4 +16,3 @@ if (hoursParked === 2) {
 }
 total = hoursParked +  memberStatus;
 console.log(total);
-
