@@ -33,11 +33,19 @@ if (memberStatus === "yes") {
    
   } else if (hoursParked === 4) {
   let hoursParked = 0.5;
-  let 
+  let sumParked1=2;
+  let sumParked2=1.5
+  let sumParked3=1;
+  let sumParked4=sumParked1+sumParked2+sumParked3+hoursParked+memberStatus
 
-    
-    console.log(`Total amount is ${totalSum}$`);
+    console.log(`Total amount is ${sumParked4}$`);
   
+  }
+  else {
+    let hoursParked = 0.5;
+   sumParked4+=hoursParked
+    let sumParked5=sumParked4+hoursParked+memberStatus
+    console.log(sumParked5)
   }
 
 
